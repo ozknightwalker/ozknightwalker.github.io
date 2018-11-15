@@ -3,11 +3,12 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'github.io',
+    title: 'Jc\'s Page',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Jc&apos;s Github page' }
+      { hid: 'description', name: 'description', content: 'Jc&apos;s Github page' },
+      { 'theme-color': '#388E3C' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -34,6 +35,15 @@ module.exports = {
         })
       }
     }
-  }
+  },
+
+  modules: [
+    '@nuxtjs/pwa',
+  ],
+
+  manifest: {
+    name: 'Jc\'s Page',
+    lang: 'en'
+  },
 }
 
