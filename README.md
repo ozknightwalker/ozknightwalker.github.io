@@ -1,6 +1,10 @@
-# github.io
-
 > Jc's Github page
+
+[![Build Status](https://travis-ci.org/ozknightwalker/ozknightwalker.github.io.svg?branch=develop)](https://travis-ci.org/ozknightwalker/ozknightwalker.github.io)
+
+[![codecov](https://codecov.io/gh/ozknightwalker/ozknightwalker.github.io/branch/develop/graph/badge.svg)](https://codecov.io/gh/ozknightwalker/ozknightwalker.github.io)
+
+
 
 ## Build Setup
 
