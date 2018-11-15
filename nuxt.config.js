@@ -43,7 +43,11 @@ module.exports = {
 
   manifest: {
     name: 'Jc\'s Page',
-    lang: 'en'
+    description:  'Jc&apos;s Github page',
+    lang: 'en',
+    start_url: '.',
+    display: 'standalone',
+    background_color: '#388E3C'
   },
 }
 
